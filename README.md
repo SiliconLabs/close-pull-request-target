@@ -12,7 +12,7 @@ This Action subscribes to `pull_request` events. When receiving a `pull_request`
 name: Close Pull Request
 
 on:
-  pull_request:
+  pull_request_target:
     types: [opened]
 
 jobs:
