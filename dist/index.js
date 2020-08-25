@@ -3973,7 +3973,7 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 const run = async () => {
   const context = github.context;
 
-  if (context.eventName !== "pull_request") {
+  if (context.eventName !== "pull_request_target") {
     throw errors.ignoreEvent;
   }
 
