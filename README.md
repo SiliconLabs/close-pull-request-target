@@ -2,8 +2,6 @@
 
 A GitHub action to automatically close a pull request, even if the pull request is from a forked repository
 
-Note that only pull requests being opened from the same repository can be closed. This action will not currently work for pull requests from forks -- like is common in open source projects -- because the token for forked pull request workflows does not have write permissions.
-
 This is a fork of [superbrothers/close-pull-request](https://github.com/superbrothers/close-pull-request) intended for use within other Silicon Labs repositories. For users wishing to use Github actions to close pull requests, it is recommended to use [superbrothers/close-pull-request](https://github.com/superbrothers/close-pull-request)
 
 ## Usage
